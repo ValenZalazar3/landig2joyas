@@ -1,0 +1,78 @@
+---
+import WhatsApp from '@/icons/WhatsApp.astro'
+---
+
+<footer class='bg-slate-800 rounded-lg shadow'>
+    <div class='w-full max-w-screen-xl mx-auto p-4 md:py-8'>
+        <div class='sm:flex sm:items-center sm:justify-between'>
+            <a
+                href='#hero'
+                class='flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse'
+            >
+                <img
+                    src='/favicon.png'
+                    class='h-8'
+                    alt='American Gem & Jewelery Association'
+                />
+                <span
+                    class='self-center text-white text-2xl font-semibold whitespace-nowrap'
+                    >American Gem & Jewelery Association</span
+                >
+            </a>
+            <ul
+                class='flex flex-col md:flex-row items-center mb-6 text-sm font-medium text-white sm:mb-0'
+            >
+                <li>
+                    <a
+                        href='https://www.instagram.com/'
+                        class='flex items-center mb-4 sm:mb-0 space-x-1 rtl:space-x-reverse'
+                        target='_blank'
+                    >
+                        <img
+                            src='/icons/instagram.svg'
+                            class='h-4'
+                            alt='AG&JA'
+                        />
+                        <span
+                            class='hover:underline text-lg font-light whitespace-nowrap'
+                            >Instagram</span
+                        >
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href='https://wa.me/+19547012375?text=Hola%20me%20gustaría%20obtener%20más%20información%20sobre%20tus%20servicios'
+                        class='flex items-center mb-4 sm:mb-0 space-x-0 rtl:space-x-reverse'
+                        target='_blank'
+                    >
+                        <div>
+                            <WhatsApp
+                                class='h-4 mr-[-7rem] ml-[-7rem] md:ml-7'
+                            />
+                        </div>
+
+                        <span
+                            class='hover:underline text-lg font-light whitespace-nowrap'
+                            >WhatsApp</span
+                        >
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href='#'
+                        class='hover:underline md:ml-28 text-lg font-light whitespace-nowrap'
+                        >Contacto</a
+                    >
+                </li>
+            </ul>
+        </div>
+        <hr class='my-6 border-white sm:mx-auto dark:border-white lg:my-8' />
+        <span class='block text-sm text-white sm:text-center'
+            >© 2024 <a
+                href=''
+                class='hover:underline'
+                >American Gem & Jewelery Association™</a
+            >.</span
+        >
+    </div>
+</footer>
